@@ -43,6 +43,7 @@ export default function Achievements() {
                         { icon: Users, title: "Youth Empowerment Initiatives", text: "Launched multiple programs that have empowered thousands of young Nigerians in leadership, business, and governance." },
                         { icon: Briefcase, title: "Policy Advocacy & Change", text: "Successfully advocated for policies that create more opportunities for youth in politics and economic development." }
                     ].map((item, index) => (
+                        // 
                         <motion.div
                             key={index}
                             className="bg-gray-100 p-6 rounded-2xl shadow-lg text-center"
