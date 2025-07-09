@@ -5,24 +5,24 @@ import { motion } from "framer-motion";
 const newsData = [
     {
         id: 1,
-        title: "Empowerment: I was honored to attend the massive empowerment program organized by Hon. Umar Shehu Ajilo...",
-        date: "March 8, 2025",
-        description: "I was honore to attend the massive empowerment program organized by Hon.Umar Shehu Ajilo...",
-        image: "/emp.jpg",
+        title: "Security",
+        date: "July 4, 2025",
+        description: "I have attended the meeting about security that took place at the office of the presidential advisor on security department in Abuja. The meeting was attended by representatives of 21 states in Nigeria, where we had a lot of discussions regarding security issues, may God grant us peace.HAPPY JUMMU'AH",
+        image: "/images/security.jpg",
     },
     {
         id: 2,
-        title: "I was present at the 2025 North West Zonal Executive Committee meeting in Kaduna",
-        date: "Feb 15, 2025",
-        description: "Today, I attended the 2025 North West Zonal Executive Committee meeting in Kaduna",
-        image: "/zonal.jpg",
+        title: "Technology",
+        date: "Jun 1, 2025",
+        description: "Today, I am proud to lead Sokoto State representatives here in Tokyo captial to attend the 2nd International Conference of Artificial Intelligence",
+        image: "/images/tech.jpg",
     },
     {
         id: 3,
-        title: "I received my brother, Sen Yakubu Lado Danmarke, at my residence...",
-        date: "Feb 15, 2025",
-        description: "Strategizing for PDP’s Future in Katsina and Beyond",
-        image: "/dan.jpg",
+        title: "Eid Visitation",
+        date: "Apr 1, 2025",
+        description: "By the grace of God I got to visit my motherland wihich is in new city, I got a nice welcoming together with congratulating each other happy sallah.",
+        image: "/images/eid.jpg",
     },
 ];
 

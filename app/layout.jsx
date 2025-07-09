@@ -3,12 +3,12 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "Abba Kadade",
-  description: "Official Website of The PDP",
+  title: "Muhammad Idris Gobir",
+  description: "Official Website of The Deputy Governor of Sokoto State",
   icons: {
-    icon: "/favicon.ico", // Favicon
-    shortcut: "/favicon.ico", // Optional: Shortcut icon
-    apple: "/apple-touch-icon.png", // Optional: Apple touch icon
+    icon: "/coa.webp", // Favicon
+    shortcut: "/coa.webp", // Optional: Shortcut icon
+    apple: "/coa.webp", // Optional: Apple touch icon
   },
 };
 

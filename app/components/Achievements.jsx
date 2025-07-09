@@ -33,13 +33,13 @@ export default function Achievements() {
                     transition={{ duration: 1, delay: 0.3 }}
                     viewport={{ once: false }}
                 >
-                    Over the years, Muhammad Kabade Suleiman has made remarkable contributions to youth empowerment, leadership, and political inclusion in Nigeria.
+                    Over the years, Muhammad Idris Gobir has made remarkable contributions to youth empowerment, leadership, and political inclusion in Nigeria.
                 </motion.p>
 
                 {/* Achievements Grid */}
                 <div className="grid md:grid-cols-3 gap-8">
                     {[
-                        { icon: Award, title: "Youngest PDP National Youth Leader", text: "Became the youngest National Youth Leader of the PDP at age 25, inspiring a new wave of youth involvement in politics." },
+                        { icon: Award, title: "Spearheaded Rural Education Reform", text: "Led the initiative to renovate rural schools and improve teacher deployment across Sokoto State, enhancing access to quality education for underserved communities." },
                         { icon: Users, title: "Youth Empowerment Initiatives", text: "Launched multiple programs that have empowered thousands of young Nigerians in leadership, business, and governance." },
                         { icon: Briefcase, title: "Policy Advocacy & Change", text: "Successfully advocated for policies that create more opportunities for youth in politics and economic development." }
                     ].map((item, index) => (
