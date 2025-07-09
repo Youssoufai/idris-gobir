@@ -38,7 +38,7 @@ const Hero = () => {
                         animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                         transition={{ delay: 0.5, duration: 1 }}
                     >
-                        Muhammad <span className="text-green-500">Kabade</span> Suleiman
+                        Muhammad <span className="text-green-500">Kadade</span> Suleiman
                     </motion.h1>
 
                     <motion.p
