@@ -14,7 +14,7 @@ const Mission = () => {
                     viewport={{ once: false, amount: 0.3 }} // Ensures animation happens every time it's in view
                 >
                     <img
-                        src="/in.jpg"
+                        src="/images/slide2.jpg"
                         alt="Vision and Mission"
                         className="rounded-2xl shadow-lg w-full object-cover"
                     />
@@ -31,9 +31,7 @@ const Mission = () => {
                         <span className="text-black">The </span>Mission
                     </h2>
                     <p className="text-lg text-gray-700 mb-6">
-                        Our vision is to create a Nigeria where the youth are at the forefront of leadership,
-                        innovation, and national development. We strive for a society where every young person
-                        has the opportunity to contribute meaningfully to governance and social progress.
+                        To build a Sokoto State—and by extension, a Nigeria—where young people are at the heart of leadership, innovation, and sustainable development. We envision a future where every youth is empowered, heard, and given the tools to transform their communities and contribute to the progress of our state and nation.
                     </p>
 
                     {/* Animated List */}
@@ -48,10 +46,10 @@ const Mission = () => {
                         }}
                     >
                         {[
-                            "Empowering youth through political participation and leadership training.",
-                            "Advocating for policies that create job opportunities for young people.",
-                            "Building a network of young leaders committed to positive change.",
-                            "Promoting inclusive governance and accountability."
+                            "Empowering Sokoto’s youth through grassroots political participation, leadership training, and civic education.",
+                            "Building a connected network of emerging young leaders across Sokoto State, committed to excellence, unity, and service",
+                            "Driving youth-centered policy advocacy to expand access to job creation, skills acquisition, and digital innovation in both rural and urban areas.",
+                            "Championing transparency and accountability in government, ensuring young people are not just beneficiaries but active architects of governance."
                         ].map((item, index) => (
                             <motion.li
                                 key={index}

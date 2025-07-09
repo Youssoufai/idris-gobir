@@ -10,11 +10,11 @@ const Hero = () => {
         <>
             <section
                 ref={ref}
-                className="relative h-screen bg-[url('/text.jpg')] bg-center bg-cover overflow-hidden"
+                className="relative h-screen bg-[url('/images/slide3.jpg')] bg-right-top bg-cover overflow-hidden"
             >
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/70 to-transparent"></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent"></div>
 
                 {/* Content */}
                 <motion.div
@@ -38,7 +38,7 @@ const Hero = () => {
                         animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                         transition={{ delay: 0.5, duration: 1 }}
                     >
-                        Muhammad <span className="text-green-500">Kabade</span> Suleiman
+                        Idris <span className="text-green-500">Muhammad</span> Gobir
                     </motion.h1>
 
                     <motion.p
@@ -47,7 +47,7 @@ const Hero = () => {
                         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                         transition={{ delay: 0.7, duration: 1 }}
                     >
-                        National Youth Leader of The PDP <span className="font-bold">(MON)</span>
+                        Deputy Governor Sokoto State
                     </motion.p>
                 </motion.div>
             </section>
