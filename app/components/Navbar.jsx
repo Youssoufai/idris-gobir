@@ -12,7 +12,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="flex items-center gap-2">
                     <img src="/coa.webp" alt="Logo" className="h-10" />
-                    <span className="text-green-800 font-bold text-lg">ABBA KABADE</span>
+                    <span className="text-green-800 font-bold text-lg">Idris M.Gobir</span>
                 </div>
 
                 {/* Desktop Menu */}
