@@ -13,8 +13,8 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 text-center md:text-left">
                 {/* Logo & About */}
                 <div>
-                    <h2 className="text-2xl font-bold text-green-500">Muhammad Kabade</h2>
-                    <p className="text-gray-400 mt-2">Member of the Order of the Niger</p>
+                    <h2 className="text-2xl font-bold text-green-500">Deputy Governor</h2>
+                    <p className="text-gray-400 mt-2">Sokoto State</p>
                 </div>
 
                 {/* Quick Links */}
